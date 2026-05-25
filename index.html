@@ -71,19 +71,19 @@
     <div class="container my-5" id="productos-seccion">
       <h2 class="text-center fw-bold mb-4">Nuestras Especialidades</h2>
       
-      <div class="row justify-content-center gap-4">
+      <div class="row justify-content-center g-4">
         
         <!-- Tarjeta 1 - Capuccino -->
-        <div class="col-md-5">
+        <div class="col-md-6 col-lg-3">
           <div class="card tarjeta-cafe shadow-sm text-center">
             <img src="imagenes/cappuccino.png" class="card-img-top rounded" alt="Taza de Cappuccino">
             <div class="card-body">
               <h5 class="card-title fw-bold">
-                Cappuccino Clásico
-                <span class="badge bg-warning text-dark ms-2">Favorito</span>
+                Cappuccino
+                <span class="badge bg-warning text-dark ms-1">Favorito</span>
               </h5>
               <p class="card-text text-muted">
-                Espresso intenso con leche vaporizada y una cremosa capa de espuma, decorado con arte latte.
+                Espresso intenso con leche vaporizada y cremosa espuma, decorado con arte latte.
               </p>
               <button class="btn btn-ordenar" onclick="alert('¡Has agregado un Cappuccino a tu pedido!')">Ordenar ($45 MXN)</button>
             </div>
@@ -91,18 +91,52 @@
         </div>
 
         <!-- Tarjeta 2 - Pastel de Chocolate -->
-        <div class="col-md-5">
+        <div class="col-md-6 col-lg-3">
           <div class="card tarjeta-cafe shadow-sm text-center">
             <img src="imagenes/pastel.png" class="card-img-top rounded" alt="Rebanada de Pastel de Chocolate">
             <div class="card-body">
               <h5 class="card-title fw-bold">
-                Fudge de Chocolate
-                <span class="badge bg-danger ms-2">Delicioso</span>
+                Fudge Cake
+                <span class="badge bg-danger ms-1">Delicioso</span>
               </h5>
               <p class="card-text text-muted">
-                Rebanada de suave pastel de chocolate húmedo relleno y cubierto con delicioso fudge artesanal.
+                Rebanada de suave pastel de chocolate húmedo relleno y cubierto con fudge artesanal.
               </p>
               <button class="btn btn-ordenar" onclick="alert('¡Has agregado una rebanada de pastel a tu pedido!')">Ordenar ($60 MXN)</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 3 - Caramel Frappe -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card tarjeta-cafe shadow-sm text-center">
+            <img src="imagenes/frappe.png" class="card-img-top rounded" alt="Vaso de Caramel Frappe">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">
+                Caramel Frappe
+                <span class="badge bg-success ms-1">Fresco</span>
+              </h5>
+              <p class="card-text text-muted">
+                Café helado batido con hielo, crema batida y un dulce hilo de salsa de caramelo.
+              </p>
+              <button class="btn btn-ordenar" onclick="alert('¡Has agregado un Caramel Frappe a tu pedido!')">Ordenar ($55 MXN)</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 4 - Muffin de Arándanos -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card tarjeta-cafe shadow-sm text-center">
+            <img src="imagenes/muffin.png" class="card-img-top rounded" alt="Muffin de Arándanos">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">
+                Muffin Arándano
+                <span class="badge bg-info text-dark ms-1">Horneado</span>
+              </h5>
+              <p class="card-text text-muted">
+                Esponjoso panecillo horneado con arándanos silvestres frescos y un toque de azúcar.
+              </p>
+              <button class="btn btn-ordenar" onclick="alert('¡Has agregado un Muffin de Arándano a tu pedido!')">Ordenar ($35 MXN)</button>
             </div>
           </div>
         </div>
@@ -113,7 +147,7 @@
     <!-- Boton de accion principal (Reserva) -->
     <div class="container text-center my-5" id="contacto-enlace">
       <p class="mb-3 text-muted">¿Quieres asegurar tu mesa para una reunión o estudio?</p>
-      <a href="https://danielrousse.github.io/LandingPage/" class="btn btn-success btn-lg px-4 py-2" target="_blank" onclick="alert('Redirigiendo a nuestro sistema de reservas...')">
+      <a href="#contacto-enlace" class="btn btn-success btn-lg px-4 py-2" onclick="alert('¡Tu solicitud de reserva ha sido registrada! Te enviaremos un correo de confirmación.')">
         Reservar una Mesa ahora
       </a>
     </div>
