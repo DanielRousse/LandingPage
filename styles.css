@@ -1,4 +1,4 @@
-/* Estilos generales de la pagina */
+/* === ESTILOS GENERALES === */
 body {
   background-color: #f5ebe0;
   color: #4e342e;
@@ -7,7 +7,6 @@ body {
   margin: 0;
 }
 
-/* Titulos con efectos de hover */
 h1 {
   font-size: 3.5rem;
   color: #3e2723;
@@ -31,13 +30,24 @@ h2:hover {
   color: #a67c52;
 }
 
-/* Parrafos de lectura */
 p {
   font-size: 1.1rem;
   line-height: 1.6;
 }
 
-/* Contenedor principal centrado usando modelo de caja */
+/* === BARRA DE NAVEGACIÓN === */
+.nav-link {
+  color: #efebe9 !important;
+  font-size: 1.1rem;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #d4a373 !important;
+}
+
+/* === SECCIÓN DE BIENVENIDA === */
 #bienvenida-seccion {
   width: 90%;
   max-width: 900px;
@@ -49,7 +59,7 @@ p {
   text-align: center;
 }
 
-/* Imagen de cabecera */
+/* === SECCIÓN PRINCIPAL === */
 .imagen-banner {
   max-width: 100%;
   height: auto;
@@ -59,7 +69,6 @@ p {
   display: block;
 }
 
-/* Separador horizontal */
 hr {
   border: 0;
   height: 2px;
@@ -68,7 +77,7 @@ hr {
   margin: 30px auto;
 }
 
-/* Tarjetas de productos en la cuadricula */
+/* === SECCIÓN DE ESPECIALIDADES === */
 .tarjeta-cafe {
   background-color: #ffffff;
   border: 1px solid #e3d5ca;
@@ -80,14 +89,12 @@ hr {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover de las tarjetas */
 .tarjeta-cafe:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 20px rgba(78, 52, 46, 0.15);
   border-color: #d4a373;
 }
 
-/* Botones personalizados */
 .btn-ordenar {
   background-color: #4e342e;
   color: #ffffff;
@@ -105,19 +112,7 @@ hr {
   transform: scale(1.05);
 }
 
-/* Enlaces de navegacion */
-.nav-link {
-  color: #efebe9 !important;
-  font-size: 1.1rem;
-  margin: 0 10px;
-  transition: color 0.3s ease;
-}
-
-.nav-link:hover {
-  color: #d4a373 !important;
-}
-
-/* Pie de pagina */
+/* === PIE DE PÁGINA === */
 footer {
   background-color: #3e2723;
   color: #efebe9;
