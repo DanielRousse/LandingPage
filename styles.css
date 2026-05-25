@@ -1,0 +1,139 @@
+/* Estilos generales de la pagina */
+body {
+  background-color: #f5ebe0;
+  color: #4e342e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* Titulos con efectos de hover */
+h1 {
+  font-size: 3.5rem;
+  color: #3e2723;
+  text-align: center;
+  margin: 20px 0;
+  transition: color 0.3s ease;
+}
+
+h1:hover {
+  color: #d4a373;
+}
+
+h2 {
+  font-size: 2.2rem;
+  color: #4e342e;
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+}
+
+h2:hover {
+  color: #a67c52;
+}
+
+/* Parrafos de lectura */
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Contenedor principal centrado usando modelo de caja */
+#bienvenida-seccion {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border: 2px solid #e3d5ca;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* Imagen de cabecera */
+.imagen-banner {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 4px solid #e3d5ca;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Separador horizontal */
+hr {
+  border: 0;
+  height: 2px;
+  background-color: #d4a373;
+  width: 60%;
+  margin: 30px auto;
+}
+
+/* Tarjetas de productos en la cuadricula */
+.tarjeta-cafe {
+  background-color: #ffffff;
+  border: 1px solid #e3d5ca;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 15px auto;
+  width: 100%;
+  max-width: 320px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover de las tarjetas */
+.tarjeta-cafe:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(78, 52, 46, 0.15);
+  border-color: #d4a373;
+}
+
+/* Botones personalizados */
+.btn-ordenar {
+  background-color: #4e342e;
+  color: #ffffff;
+  border: 2px solid #4e342e;
+  border-radius: 25px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.btn-ordenar:hover {
+  background-color: #d4a373;
+  color: #4e342e;
+  border-color: #d4a373;
+  transform: scale(1.05);
+}
+
+/* Enlaces de navegacion */
+.nav-link {
+  color: #efebe9 !important;
+  font-size: 1.1rem;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #d4a373 !important;
+}
+
+/* Pie de pagina */
+footer {
+  background-color: #3e2723;
+  color: #efebe9;
+  padding: 30px 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#enlace-footer {
+  color: #d4a373;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#enlace-footer:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
